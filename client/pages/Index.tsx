@@ -216,29 +216,30 @@ export default function Index() {
       {/* Buy Section */}
       <section
         id="buy"
-        className="relative py-20 md:py-32 lg:py-40 overflow-hidden"
+        className="relative py-24 md:py-40 lg:py-48 overflow-hidden"
       >
-        {/* Background decoration */}
-        <div className="absolute inset-0 -z-10 opacity-20">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-accent/20 rounded-full blur-3xl" />
+        {/* Background decoration with yellow gradient */}
+        <div className="absolute inset-0 -z-10 opacity-30">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-accent/25 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-1/4 w-80 h-80 bg-accent/15 rounded-full blur-3xl" />
         </div>
 
         <div className="container">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-4xl md:text-5xl font-black mb-8 tracking-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-black mb-10 tracking-tighter">
               Get Your eSIM Today
             </h2>
 
-            <div className="inline-flex items-baseline gap-3 mb-8">
-              <span className="text-5xl md:text-6xl font-black text-accent">
+            <div className="inline-flex flex-col sm:flex-row items-center sm:items-baseline gap-4 sm:gap-4 mb-10">
+              <span className="text-5xl md:text-6xl lg:text-7xl font-black text-accent">
                 999 PKR
               </span>
-              <span className="text-base text-accent font-bold uppercase tracking-widest">
+              <span className="text-base sm:text-lg text-accent font-bold uppercase tracking-widest">
                 One-time
               </span>
             </div>
 
-            <p className="text-base lg:text-lg text-foreground/70 leading-relaxed max-w-2xl mx-auto mb-12">
+            <p className="text-base lg:text-lg text-foreground/75 leading-relaxed max-w-2xl mx-auto mb-14 font-medium">
               Choose your preferred platform to purchase. Our team will guide
               you through a quick, secure setup process.
             </p>
