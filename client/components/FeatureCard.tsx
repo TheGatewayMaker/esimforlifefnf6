@@ -26,7 +26,7 @@ export default function FeatureCard({
       <div className="relative p-7 md:p-8 flex flex-col h-full">
         {/* Icon container with enhanced styling */}
         <div
-          className="flex h-14 w-14 md:h-16 md:w-16 items-center justify-center rounded-xl md:rounded-2xl text-accent flex-shrink-0 mb-6 shadow-md transition-all duration-300 group-hover:shadow-lg group-hover:-translate-y-1"
+          className="flex h-12 sm:h-14 md:h-16 w-12 sm:w-14 md:w-16 items-center justify-center rounded-lg sm:rounded-xl md:rounded-2xl text-accent flex-shrink-0 mb-4 sm:mb-5 md:mb-6 shadow-md transition-all duration-300 group-hover:shadow-lg group-hover:-translate-y-1"
           style={{
             background: "rgba(255, 215, 0, 0.15)",
             backdropFilter: "blur(10px)",
@@ -40,10 +40,10 @@ export default function FeatureCard({
 
         {/* Text content */}
         <div className="flex-1">
-          <h3 className="text-lg md:text-xl lg:text-2xl font-black tracking-tight mb-3 text-foreground leading-snug">
+          <h3 className="text-base sm:text-lg md:text-xl lg:text-2xl font-black tracking-tight mb-2 sm:mb-3 text-foreground leading-snug">
             {title}
           </h3>
-          <p className="text-sm md:text-base text-foreground/75 leading-relaxed font-medium">
+          <p className="text-xs sm:text-sm md:text-base text-foreground/75 leading-relaxed font-medium">
             {description}
           </p>
         </div>
