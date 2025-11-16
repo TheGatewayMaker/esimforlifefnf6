@@ -264,19 +264,19 @@ export default function Index() {
                   <div className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent" style={{background: 'rgba(255, 215, 0, 0.15)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)'}}>
                     1
                   </div>
-                  <span className="text-base leading-relaxed">Share your unique referral link with friends.</span>
+                  <span className="text-base leading-relaxed">Share your unique referral code with friends.</span>
                 </li>
                 <li className="step flex items-start gap-4">
                   <div className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent" style={{background: 'rgba(255, 215, 0, 0.15)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)'}}>
                     2
                   </div>
-                  <span className="text-base leading-relaxed">Your friend buys and activates an eSIM.</span>
+                  <span className="text-base leading-relaxed">Your friend just installs the App and put your referral code (friend doesn't need to buy).</span>
                 </li>
                 <li className="step flex items-start gap-4">
                   <div className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent" style={{background: 'rgba(255, 215, 0, 0.15)', backdropFilter: 'blur(8px)', WebkitBackdropFilter: 'blur(8px)'}}>
                     3
                   </div>
-                  <span className="text-base leading-relaxed">Earn 500MB instantly. Repeat to unlock scratch cards.</span>
+                  <span className="text-base leading-relaxed">Both will Get 500MBs instant. After 3 referrals you also get a scratch card of worth UPTO 300GBs of Data.</span>
                 </li>
               </ol>
 
