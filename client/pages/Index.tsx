@@ -31,53 +31,53 @@ export default function Index() {
         <div className="container pt-8 sm:pt-12 pb-12 sm:pb-16 md:pt-16 md:pb-24 lg:pt-20 lg:pb-32 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-center justify-center">
           {/* Left content */}
           <div className="flex flex-col justify-center order-2 lg:order-1">
-            <div className="inline-flex items-center gap-3 mb-8 w-fit">
-              <div className="h-10 w-1 bg-gradient-to-b from-accent to-accent/30 rounded-full" />
-              <span className="text-sm font-bold text-accent tracking-widest uppercase">
+            <div className="inline-flex items-center gap-2 sm:gap-3 mb-6 sm:mb-8 w-fit">
+              <div className="h-8 sm:h-10 w-0.5 sm:w-1 bg-gradient-to-b from-accent to-accent/30 rounded-full" />
+              <span className="text-xs sm:text-sm font-bold text-accent tracking-widest uppercase">
                 Premium Global eSIM
               </span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-tight tracking-tight mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-tight tracking-tight mb-4 sm:mb-5 md:mb-6">
               Your Lifetime eSIM
             </h1>
-            <p className="text-xl text-accent font-bold mb-4">
+            <p className="text-lg sm:text-xl text-accent font-bold mb-3 sm:mb-4">
               <span className="text-gradient">Zero Expiry</span>
             </p>
 
-            <p className="text-base lg:text-lg text-foreground/75 max-w-xl leading-relaxed mb-8">
+            <p className="text-sm sm:text-base md:text-lg text-foreground/75 max-w-xl leading-relaxed mb-6 sm:mb-8">
               esim4life.shop provides an international data eSIM that never expires. Permanent data and account validity across multiple countries, including Pakistan. Compatible with both PTA and non-PTA phones.
             </p>
 
             {/* Features chips */}
-            <div className="flex flex-wrap items-center gap-3 mb-10">
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-7 sm:mb-10">
               <span className="chip">
-                <Infinity className="h-4 w-4" />
-                No Expiry
+                <Infinity className="h-3 sm:h-4 w-3 sm:w-4" />
+                <span className="text-xs sm:text-sm">No Expiry</span>
               </span>
               <span className="chip">
-                <Gift className="h-4 w-4" />
-                Free Data
+                <Gift className="h-3 sm:h-4 w-3 sm:w-4" />
+                <span className="text-xs sm:text-sm">Free Data</span>
               </span>
               <span className="chip">
-                <Wifi className="h-4 w-4" />
-                Global 4G/5G
+                <Wifi className="h-3 sm:h-4 w-3 sm:w-4" />
+                <span className="text-xs sm:text-sm">Global 4G/5G</span>
               </span>
             </div>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full max-w-xl">
+            <div className="flex flex-col sm:flex-row items-stretch gap-3 sm:gap-4 w-full max-w-xl">
               <GlowButton
                 href="https://wa.me/message/4S3NPHUQR663C1"
                 label="Buy via WhatsApp"
                 icon="https://i.ibb.co/Q2YSt4V/whatsapp.png"
-                className="w-full sm:flex-1"
+                className="w-full text-sm sm:text-base px-4 sm:px-5"
               />
               <GlowButton
                 href="https://t.me/esim4lifechatbot"
                 label="Buy via Telegram"
                 icon="https://i.ibb.co/8gxkpRSv/telegram-1.png"
-                className="w-full sm:flex-1"
+                className="w-full text-sm sm:text-base px-4 sm:px-5"
               />
             </div>
           </div>
