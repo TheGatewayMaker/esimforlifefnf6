@@ -24,7 +24,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/90 border-b border-accent/20">
-      <div className="container flex items-center justify-between py-4 md:py-5">
+      <div className="container px-4 sm:px-6 lg:px-8 flex items-center justify-between py-3 sm:py-4 md:py-5">
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative">
             <img
