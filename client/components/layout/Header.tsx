@@ -94,19 +94,19 @@ export default function Header() {
 
       {open && (
         <div className="md:hidden border-t border-accent/10 bg-background/95 backdrop-blur-sm animate-in fade-in slide-in-from-top-2">
-          <div className="container py-4 space-y-1">
+          <div className="container px-4 sm:px-6 py-4 sm:py-5 space-y-1.5">
             {NAV.map((n) => (
               <Link
                 key={n.label}
                 to={n.to}
-                className="block px-4 py-3 rounded-lg text-sm font-semibold text-foreground/80 hover:bg-accent/10 hover:text-accent transition-all duration-300"
+                className="block px-4 py-3.5 rounded-lg text-sm font-semibold text-foreground/80 hover:bg-accent/10 hover:text-accent transition-all duration-300"
               >
                 {n.label}
               </Link>
             ))}
             <Link
               to="/#buy"
-              className="block mt-4 px-5 py-3 rounded-lg text-sm font-bold bg-gradient-to-b from-accent via-accent to-accent/85 text-accent-foreground text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              className="block mt-4 px-5 py-3.5 rounded-lg text-sm font-bold bg-gradient-to-b from-accent via-accent to-accent/85 text-accent-foreground text-center shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
             >
               Buy Now (999 PKR)
             </Link>
