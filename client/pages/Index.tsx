@@ -96,11 +96,11 @@ export default function Index() {
               {/* Subtle background glow for price section */}
               <div className="absolute inset-0 bg-gradient-to-b from-accent/8 via-accent/4 to-transparent rounded-3xl blur-3xl -z-10" />
               <div className="flex flex-col items-center lg:items-end gap-2 sm:gap-3">
-                <div className="flex flex-col lg:flex-row items-center lg:items-baseline gap-2 sm:gap-4">
-                  <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-accent leading-tight drop-shadow-lg">
+                <div className="flex flex-col lg:flex-row items-center lg:items-baseline gap-2 sm:gap-3 md:gap-4">
+                  <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-accent leading-tight drop-shadow-lg">
                     999 PKR
                   </h2>
-                  <p className="text-base sm:text-lg md:text-xl font-semibold text-foreground/75">
+                  <p className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-foreground/75">
                     Lifetime eSIM
                   </p>
                 </div>
