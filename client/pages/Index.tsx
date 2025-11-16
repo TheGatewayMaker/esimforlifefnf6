@@ -42,7 +42,7 @@ export default function Index() {
               Your Lifetime eSIM
             </h1>
             <p className="text-xl text-accent font-bold mb-4">
-              <span className="text-gradient">Unlimited Data, Zero Expiry</span>
+              <span className="text-gradient">Zero Expiry</span>
             </p>
 
             <p className="text-base lg:text-lg text-foreground/75 max-w-xl leading-relaxed mb-8">
@@ -85,7 +85,7 @@ export default function Index() {
           {/* Right stats section */}
           <div className="order-1 lg:order-2 relative">
             {/* Price highlight card */}
-            <div className="mb-8 rounded-2xl border border-accent/20 bg-gradient-to-br from-card to-card/80 p-8 backdrop-blur shadow-xl">
+            <div className="mb-8 rounded-2xl border border-accent/15 bg-gradient-to-br from-transparent via-transparent to-transparent p-8 backdrop-blur-xl shadow-xl" style={{background: 'rgba(255, 255, 255, 0.05)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', borderColor: 'rgba(255, 215, 0, 0.2)'}}>
               <div className="text-center">
                 <p className="text-sm font-bold text-accent/80 uppercase tracking-widest mb-2">
                   Limited Time Offer
@@ -94,7 +94,7 @@ export default function Index() {
                   999 PKR
                 </h2>
                 <p className="text-base lg:text-lg font-semibold text-foreground/70">
-                  Lifetime eSIM • Unlimited Data
+                  Lifetime eSIM
                 </p>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function Index() {
             </div>
 
             {/* Compatibility info */}
-            <div className="mt-6 rounded-2xl border border-accent/15 bg-gradient-to-br from-accent/5 to-transparent p-6 text-center">
+            <div className="mt-6 rounded-2xl border border-accent/15 p-6 text-center" style={{background: 'rgba(255, 255, 255, 0.05)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', borderColor: 'rgba(255, 215, 0, 0.15)'}}>
               <p className="text-lg font-bold text-foreground mb-2">
                 Compatible with All Non-PTA Phones
               </p>
