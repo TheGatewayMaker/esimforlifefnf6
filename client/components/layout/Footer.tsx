@@ -3,18 +3,18 @@ export default function Footer() {
     <footer className="border-t border-border/60 mt-16 sm:mt-20">
       <div className="container px-4 sm:px-6 lg:px-8 py-10 sm:py-12 grid gap-8 sm:gap-10 md:gap-12 grid-cols-1 md:grid-cols-3">
         <div>
-          <div className="flex items-center gap-2 mb-3">
+          <div className="flex items-center gap-2 mb-4 sm:mb-5">
             <img
               src="https://i.ibb.co/k2b407jw/esim4lifelogo.png"
               alt="esim4life logo"
-              className="h-12 w-12 rounded-md"
+              className="h-10 sm:h-12 w-10 sm:w-12 rounded-md"
               loading="lazy"
             />
-            <span className="font-black tracking-tighter text-lg">
+            <span className="font-black tracking-tighter text-base sm:text-lg">
               esim4life
             </span>
           </div>
-          <p className="text-sm text-foreground/80 font-medium leading-relaxed">
+          <p className="text-xs sm:text-sm text-foreground/80 font-medium leading-relaxed">
             Cheap eSIM, Lifetime eSIM, International eSIM, Non-Expiring Data, 5G
             eSIM, buy eSIM online for global travel. Price:{" "}
             <span className="font-semibold">999 PKR</span>. Permanent data
