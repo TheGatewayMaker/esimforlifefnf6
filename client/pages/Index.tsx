@@ -268,9 +268,9 @@ export default function Index() {
 
       {/* Refer & Earn Section */}
       <section id="refer" className="relative py-24 md:py-40 lg:py-48 overflow-hidden">
-        {/* Subtle background accent */}
-        <div className="absolute inset-0 -z-10 opacity-30">
-          <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent/15 rounded-full blur-3xl" />
+        {/* Subtle background accent - smoothened */}
+        <div className="absolute inset-0 -z-10">
+          <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
         </div>
         <div className="container">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
