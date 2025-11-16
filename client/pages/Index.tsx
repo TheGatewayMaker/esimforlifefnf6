@@ -83,50 +83,50 @@ export default function Index() {
           </div>
 
           {/* Right stats section */}
-          <div className="order-1 lg:order-2 relative">
-            {/* Price highlight */}
-            <div className="mb-12 text-center">
-              <p className="text-sm font-bold text-accent/80 uppercase tracking-widest mb-3">
+          <div className="order-1 lg:order-2 relative w-full">
+            {/* Price poster highlight */}
+            <div className="mb-8 sm:mb-10 md:mb-12 text-center">
+              <p className="text-xs sm:text-sm font-bold text-accent/80 uppercase tracking-widest mb-2 sm:mb-3">
                 Limited Time Offer
               </p>
-              <h2 className="text-5xl lg:text-6xl font-black text-accent mb-2">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-accent mb-2 sm:mb-3 leading-tight">
                 999 PKR
               </h2>
-              <p className="text-base lg:text-lg font-semibold text-foreground/70">
+              <p className="text-sm sm:text-base md:text-lg font-semibold text-foreground/70">
                 Lifetime eSIM
               </p>
             </div>
 
             {/* Stats grid */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4 md:gap-5">
               <div className="stat">
-                <Wifi className="h-8 w-8 text-accent" />
-                <span className="stat-label">Connectivity</span>
-                <span className="stat-value">4G/5G</span>
+                <Wifi className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
+                <span className="stat-label text-xs">Connectivity</span>
+                <span className="stat-value text-lg sm:text-xl md:text-2xl">4G/5G</span>
               </div>
               <div className="stat">
-                <Infinity className="h-8 w-8 text-accent" />
-                <span className="stat-label">Validity</span>
-                <span className="stat-value">Lifetime</span>
+                <Infinity className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
+                <span className="stat-label text-xs">Validity</span>
+                <span className="stat-value text-lg sm:text-xl md:text-2xl">Lifetime</span>
               </div>
               <div className="stat">
-                <Globe2 className="h-8 w-8 text-accent" />
-                <span className="stat-label">Coverage</span>
-                <span className="stat-value">Global</span>
+                <Globe2 className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
+                <span className="stat-label text-xs">Coverage</span>
+                <span className="stat-value text-lg sm:text-xl md:text-2xl">Global</span>
               </div>
               <div className="stat">
-                <Shield className="h-8 w-8 text-accent" />
-                <span className="stat-label">Security</span>
-                <span className="stat-value">Secure</span>
+                <Shield className="h-6 sm:h-7 md:h-8 w-6 sm:w-7 md:w-8 text-accent" />
+                <span className="stat-label text-xs">Security</span>
+                <span className="stat-value text-lg sm:text-xl md:text-2xl">Secure</span>
               </div>
             </div>
 
             {/* Compatibility info */}
-            <div className="mt-6 rounded-2xl border border-accent/15 p-6 text-center" style={{background: 'rgba(255, 255, 255, 0.05)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', borderColor: 'rgba(255, 215, 0, 0.15)'}}>
-              <p className="text-lg font-bold text-foreground mb-2">
+            <div className="mt-4 sm:mt-5 md:mt-6 rounded-2xl border p-4 sm:p-5 md:p-6 text-center" style={{background: 'rgba(255, 255, 255, 0.05)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', borderColor: 'rgba(255, 215, 0, 0.15)'}}>
+              <p className="text-base sm:text-lg font-bold text-foreground mb-1 sm:mb-2">
                 Compatible with All Non-PTA Phones
               </p>
-              <p className="text-sm text-foreground/70">
+              <p className="text-xs sm:text-sm text-foreground/70">
                 No restrictions • Full international compatibility
               </p>
             </div>
