@@ -186,8 +186,8 @@ export default function Index() {
       >
         {/* Subtle background accent - smoothened */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
-          <div className="absolute bottom-0 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/6 via-accent/3 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-gradient-to-br from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
         </div>
         <div className="container">
           <div className="mb-12 sm:mb-16 md:mb-24 max-w-3xl px-4 sm:px-0">
@@ -195,9 +195,7 @@ export default function Index() {
               Everything you need
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed font-medium">
-              Global compatibility, lifetime data, referral rewards, and
-              seamless device transfers, wrapped in a premium, secure
-              experience.
+              Global compatibility across 150+ countries, lifetime data, referral rewards, seamless device transfers, and works on all non-PTA phones with a premium, secure experience.
             </p>
           </div>
 
