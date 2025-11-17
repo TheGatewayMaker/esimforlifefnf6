@@ -34,7 +34,7 @@ export default function Index() {
 
         <div className="container pt-8 sm:pt-12 md:pt-16 lg:pt-24 pb-12 sm:pb-16 md:pb-24 lg:pb-40 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center justify-center">
           {/* Left content */}
-          <div className="flex flex-col justify-center order-2 lg:order-1">
+          <div className="flex flex-col justify-center lg:order-1">
             <div className="inline-flex items-center gap-3 sm:gap-4 mb-8 sm:mb-10 w-fit">
               <div className="h-10 sm:h-12 w-1 bg-gradient-to-b from-accent via-accent to-accent/30 rounded-full" />
               <span className="text-xs sm:text-sm font-bold text-accent tracking-widest uppercase">
@@ -92,7 +92,7 @@ export default function Index() {
           </div>
 
           {/* Right stats section */}
-          <div className="order-1 lg:order-2 relative w-full">
+          <div className="lg:order-2 relative w-full">
             {/* Price poster highlight with thoughtful layout */}
             <div className="mb-10 sm:mb-12 md:mb-14 relative">
               {/* Subtle background glow for price section */}
