@@ -21,12 +21,14 @@ export default function GlowButton({ href, label, icon, className }: Props) {
         className,
       )}
       style={{
-        boxShadow: '0 12px 24px rgba(255, 215, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25)',
+        boxShadow:
+          "0 12px 24px rgba(255, 215, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.25)",
       }}
     >
-      <span className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+      <span
+        className="absolute inset-0 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
         style={{
-          boxShadow: 'inset 0 0 20px rgba(255, 255, 255, 0.1)',
+          boxShadow: "inset 0 0 20px rgba(255, 255, 255, 0.1)",
         }}
       />
       {icon && (

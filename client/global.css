@@ -193,7 +193,11 @@
   }
   .stat {
     @apply flex flex-col items-center justify-center rounded-2xl border p-6 text-center transition-all duration-300 h-full min-h-[140px] md:min-h-[160px];
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.04) 100%);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0.04) 100%
+    );
     border-color: rgba(255, 215, 0, 0.3);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
@@ -205,7 +209,11 @@
 
   .stat:hover {
     border-color: rgba(255, 215, 0, 0.5);
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.08) 100%);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.16) 0%,
+      rgba(255, 255, 255, 0.08) 100%
+    );
     box-shadow:
       0 16px 32px rgba(0, 0, 0, 0.45),
       inset 0 1px 0 rgba(255, 255, 255, 0.25),
@@ -220,20 +228,32 @@
   }
   .feature-mini {
     @apply inline-flex items-center gap-3 rounded-xl border px-5 py-3 text-sm font-semibold text-foreground transition-all duration-300 shadow-md hover:shadow-lg;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.06) 100%);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.11) 0%,
+      rgba(255, 255, 255, 0.06) 100%
+    );
     border-color: rgba(255, 215, 0, 0.3);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
 
   .feature-mini:hover {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.1) 100%);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.16) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    );
     border-color: rgba(255, 215, 0, 0.45);
     @apply -translate-y-2;
   }
   .step {
     @apply relative rounded-xl border p-5 md:p-6 font-medium leading-relaxed transition-all duration-300;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.09) 0%, rgba(255, 255, 255, 0.04) 100%);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.09) 0%,
+      rgba(255, 255, 255, 0.04) 100%
+    );
     border-color: rgba(255, 215, 0, 0.25);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -244,7 +264,11 @@
 
   .step:hover {
     border-color: rgba(255, 215, 0, 0.4);
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.13) 0%, rgba(255, 255, 255, 0.08) 100%);
+    background: linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.08) 100%
+    );
     box-shadow:
       0 8px 20px rgba(0, 0, 0, 0.3),
       inset 0 1px 0 rgba(255, 255, 255, 0.15);
@@ -259,11 +283,15 @@
   }
   .price-badge {
     @apply inline-flex items-center gap-2 rounded-full bg-gradient-to-br from-accent via-accent to-accent/85 text-accent-foreground px-6 py-2.5 font-bold text-sm transition-all duration-300 hover:-translate-y-1;
-    box-shadow: 0 8px 20px rgba(255, 215, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    box-shadow:
+      0 8px 20px rgba(255, 215, 0, 0.35),
+      inset 0 1px 0 rgba(255, 255, 255, 0.2);
   }
 
   .price-badge:hover {
-    box-shadow: 0 12px 28px rgba(255, 215, 0, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    box-shadow:
+      0 12px 28px rgba(255, 215, 0, 0.45),
+      inset 0 1px 0 rgba(255, 255, 255, 0.3);
   }
 }
 

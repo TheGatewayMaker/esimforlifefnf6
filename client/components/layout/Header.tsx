@@ -23,9 +23,13 @@ export default function Header() {
   }, [location]);
 
   return (
-    <header className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/85 border-b border-accent/30" style={{
-      boxShadow: "0 4px 12px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 215, 0, 0.1)",
-    }}>
+    <header
+      className="sticky top-0 z-50 backdrop-blur supports-[backdrop-filter]:bg-background/85 border-b border-accent/30"
+      style={{
+        boxShadow:
+          "0 4px 12px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 215, 0, 0.1)",
+      }}
+    >
       <div className="container px-4 sm:px-6 lg:px-8 flex items-center justify-between py-3 sm:py-4 md:py-5">
         <Link to="/" className="flex items-center gap-3 group">
           <div className="relative">
@@ -62,7 +66,8 @@ export default function Header() {
               "hidden md:inline-flex px-6 py-3 rounded-xl text-sm font-bold bg-gradient-to-br from-accent via-accent to-accent/85 text-accent-foreground transition-all duration-300 hover:-translate-y-1 hover:scale-105 border border-accent/60 hover:border-accent/80",
             )}
             style={{
-              boxShadow: '0 8px 16px rgba(255, 215, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25)',
+              boxShadow:
+                "0 8px 16px rgba(255, 215, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25)",
             }}
           >
             Buy Now (999 PKR)
@@ -113,7 +118,8 @@ export default function Header() {
               to="/#buy"
               className="block mt-4 px-5 py-3.5 rounded-xl text-sm font-bold bg-gradient-to-br from-accent via-accent to-accent/85 text-accent-foreground text-center transition-all duration-300 hover:-translate-y-1 border border-accent/60 hover:border-accent/80"
               style={{
-                boxShadow: '0 8px 16px rgba(255, 215, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25)',
+                boxShadow:
+                  "0 8px 16px rgba(255, 215, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.25)",
               }}
             >
               Buy Now (999 PKR)

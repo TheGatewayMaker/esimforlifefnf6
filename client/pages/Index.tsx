@@ -58,15 +58,23 @@ export default function Index() {
             </p>
 
             {/* Non-PTA Emphasis Badge */}
-            <div className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-xl border"
+            <div
+              className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-xl border"
               style={{
-                background: "linear-gradient(135deg, rgba(255, 215, 0, 0.08) 0%, rgba(255, 215, 0, 0.04) 100%)",
+                background:
+                  "linear-gradient(135deg, rgba(255, 215, 0, 0.08) 0%, rgba(255, 215, 0, 0.04) 100%)",
                 borderColor: "rgba(255, 215, 0, 0.3)",
-                boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1)",
+                boxShadow:
+                  "0 4px 12px rgba(0, 0, 0, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1)",
               }}
             >
-              <p className="text-sm sm:text-base font-bold text-accent mb-1">✓ Works on ALL Non-PTA Phones</p>
-              <p className="text-xs sm:text-sm text-foreground/75">Full compatibility with international devices • No PTA restrictions</p>
+              <p className="text-sm sm:text-base font-bold text-accent mb-1">
+                ✓ Works on ALL Non-PTA Phones
+              </p>
+              <p className="text-xs sm:text-sm text-foreground/75">
+                Full compatibility with international devices • No PTA
+                restrictions
+              </p>
             </div>
 
             {/* Features chips */}
@@ -105,17 +113,21 @@ export default function Index() {
           {/* Right stats section */}
           <div className="lg:order-2 relative w-full">
             {/* Price poster highlight with thoughtful layout */}
-            <div className="relative rounded-3xl border"
+            <div
+              className="relative rounded-3xl border"
               style={{
-                background: "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
+                background:
+                  "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
                 borderColor: "rgba(255, 215, 0, 0.3)",
-                boxShadow: "0 12px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
+                boxShadow:
+                  "0 12px 32px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
                 margin: "9px 0 56px",
                 padding: "24px 48px 16px",
               }}
             >
               <div className="flex flex-col items-center lg:items-end gap-2 sm:gap-3">
-                <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-accent leading-tight"
+                <h2
+                  className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl font-black text-accent leading-tight"
                   style={{
                     margin: "-4px -3px -5px -2px",
                   }}
@@ -126,7 +138,8 @@ export default function Index() {
               <p className="text-sm sm:text-base md:text-lg lg:text-xl font-black text-foreground">
                 Lifetime eSIM
               </p>
-              <p className="text-xs font-bold mt-2"
+              <p
+                className="text-xs font-bold mt-2"
                 style={{
                   color: "rgb(255, 217, 0)",
                   fontSize: "15px",
@@ -174,11 +187,13 @@ export default function Index() {
             <div
               className="mt-6 sm:mt-7 md:mt-8 rounded-2xl border p-6 sm:p-7 md:p-8"
               style={{
-                background: "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
+                background:
+                  "linear-gradient(135deg, rgba(255, 215, 0, 0.12) 0%, rgba(255, 215, 0, 0.06) 100%)",
                 backdropFilter: "blur(16px)",
                 WebkitBackdropFilter: "blur(16px)",
                 borderColor: "rgba(255, 215, 0, 0.35)",
-                boxShadow: "0 8px 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
+                boxShadow:
+                  "0 8px 20px rgba(0, 0, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
               }}
             >
               <div className="flex items-start gap-4 mb-4">
@@ -188,7 +203,8 @@ export default function Index() {
                     Global Coverage • Non-PTA Compatible
                   </p>
                   <p className="text-xs sm:text-sm text-foreground/75 font-medium">
-                    Works in 150+ countries • All non-PTA phones • Full international compatibility
+                    Works in 150+ countries • All non-PTA phones • Full
+                    international compatibility
                   </p>
                 </div>
               </div>
@@ -213,7 +229,9 @@ export default function Index() {
               Everything you need
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed font-medium">
-              Global compatibility across 150+ countries, lifetime data, referral rewards, seamless device transfers, and works on all non-PTA phones with a premium, secure experience.
+              Global compatibility across 150+ countries, lifetime data,
+              referral rewards, seamless device transfers, and works on all
+              non-PTA phones with a premium, secure experience.
             </p>
           </div>
 
@@ -279,18 +297,23 @@ export default function Index() {
             </div>
 
             {/* Global Coverage Highlight */}
-            <div className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-xl border mx-auto w-fit"
+            <div
+              className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-xl border mx-auto w-fit"
               style={{
-                background: "linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%)",
+                background:
+                  "linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%)",
                 borderColor: "rgba(255, 215, 0, 0.3)",
               }}
             >
-              <p className="text-xs sm:text-sm font-bold text-accent">✓ Works in 150+ Countries • ✓ Non-PTA Compatible</p>
+              <p className="text-xs sm:text-sm font-bold text-accent">
+                ✓ Works in 150+ Countries • ✓ Non-PTA Compatible
+              </p>
             </div>
 
             <p className="text-sm sm:text-base lg:text-lg text-foreground/75 leading-relaxed max-w-2xl mx-auto mb-10 sm:mb-12 lg:mb-14 font-medium">
               Choose your preferred platform to purchase. Our team will guide
-              you through a quick, secure setup process. Get global connectivity with lifetime validity.
+              you through a quick, secure setup process. Get global connectivity
+              with lifetime validity.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center max-w-2xl mx-auto">
@@ -355,11 +378,13 @@ export default function Index() {
             <div
               className="rounded-2xl border p-8"
               style={{
-                background: "linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%)",
+                background:
+                  "linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%)",
                 backdropFilter: "blur(16px)",
                 WebkitBackdropFilter: "blur(16px)",
                 borderColor: "rgba(255, 215, 0, 0.25)",
-                boxShadow: "0 8px 24px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
+                boxShadow:
+                  "0 8px 24px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.15)",
               }}
             >
               <h3 className="text-lg md:text-xl font-black mb-6 tracking-tight">
