@@ -429,8 +429,8 @@ export default function Index() {
       >
         {/* Background decoration with smoothened yellow gradient */}
         <div className="absolute inset-0 -z-10">
-          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-accent/15 via-accent/8 to-transparent rounded-full blur-[100px]" />
-          <div className="absolute top-0 right-1/3 w-[450px] h-[450px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-gradient-to-tr from-accent/18 via-accent/10 to-transparent rounded-full blur-[100px]" />
+          <div className="absolute top-0 right-1/3 w-[450px] h-[450px] bg-gradient-to-br from-accent/10 via-accent/5 to-transparent rounded-full blur-[100px]" />
         </div>
 
         <div className="container px-4 sm:px-0">
