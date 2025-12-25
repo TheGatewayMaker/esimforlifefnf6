@@ -346,49 +346,41 @@ export default function Index() {
               <ol className="space-y-5 mb-8">
                 <li className="step flex items-start gap-4">
                   <div
-                    className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent"
+                    className="flex-shrink-0 h-8 w-8 rounded-md flex items-center justify-center text-xs font-bold text-accent"
                     style={{
-                      background: "rgba(255, 215, 0, 0.15)",
-                      backdropFilter: "blur(8px)",
-                      WebkitBackdropFilter: "blur(8px)",
+                      background: "rgba(61, 207, 220, 0.12)",
                     }}
                   >
                     1
                   </div>
-                  <span className="text-base leading-relaxed">
+                  <span className="text-base leading-relaxed font-medium">
                     Share your unique referral code with friends.
                   </span>
                 </li>
                 <li className="step flex items-start gap-4">
                   <div
-                    className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent"
+                    className="flex-shrink-0 h-8 w-8 rounded-md flex items-center justify-center text-xs font-bold text-accent"
                     style={{
-                      background: "rgba(255, 215, 0, 0.15)",
-                      backdropFilter: "blur(8px)",
-                      WebkitBackdropFilter: "blur(8px)",
+                      background: "rgba(61, 207, 220, 0.12)",
                     }}
                   >
                     2
                   </div>
-                  <span className="text-base leading-relaxed">
-                    Your friend just installs the App and put your referral code
-                    (friend doesn't need to buy).
+                  <span className="text-base leading-relaxed font-medium">
+                    Friend installs the app and enters your referral code (no purchase needed).
                   </span>
                 </li>
                 <li className="step flex items-start gap-4">
                   <div
-                    className="flex-shrink-0 h-8 w-8 rounded-lg flex items-center justify-center text-xs font-bold text-accent"
+                    className="flex-shrink-0 h-8 w-8 rounded-md flex items-center justify-center text-xs font-bold text-accent"
                     style={{
-                      background: "rgba(255, 215, 0, 0.15)",
-                      backdropFilter: "blur(8px)",
-                      WebkitBackdropFilter: "blur(8px)",
+                      background: "rgba(61, 207, 220, 0.12)",
                     }}
                   >
                     3
                   </div>
-                  <span className="text-base leading-relaxed">
-                    Both will Get 500MBs instant. After 3 referrals you also get
-                    a scratch card of worth UPTO 300GBs of Data.
+                  <span className="text-base leading-relaxed font-medium">
+                    Both get 500MB instantly. After 3 referrals, unlock a bonus scratch card worth up to 300GB.
                   </span>
                 </li>
               </ol>
