@@ -188,14 +188,12 @@ export default function Index() {
           <div className="absolute bottom-0 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/6 via-accent/2 to-transparent rounded-full blur-[120px]" />
         </div>
         <div className="container">
-          <div className="mb-12 sm:mb-16 md:mb-24 max-w-3xl px-4 sm:px-0">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4 sm:mb-5 md:mb-6 tracking-tighter">
+          <div className="mb-12 sm:mb-16 md:mb-24 max-w-3xl">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4 sm:mb-6 tracking-tight">
               Everything you need
             </h2>
-            <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed font-medium">
-              Global compatibility across 150+ countries, lifetime data,
-              referral rewards, seamless device transfers, and works on all
-              non-PTA phones with a premium, secure experience.
+            <p className="text-base sm:text-lg text-foreground/70 leading-relaxed font-medium">
+              Global compatibility, lifetime validity, referral rewards, seamless device transfers, and premium security. All features designed for reliability and trust.
             </p>
           </div>
 
