@@ -302,16 +302,14 @@ export default function Index() {
         <div className="absolute inset-0 -z-10">
           <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-gradient-to-tl from-accent/8 via-accent/3 to-transparent rounded-full blur-[120px]" />
         </div>
-        <div className="container px-4 sm:px-0">
+        <div className="container">
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 lg:gap-16 items-center">
             <div>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 tracking-tighter">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 tracking-tight">
                 Refer & Earn
               </h2>
-              <p className="text-base sm:text-lg md:text-xl text-foreground/75 leading-relaxed mb-8 sm:mb-10 font-medium">
-                Invite friends and earn 500MB per successful referral with no
-                limits. After three referrals, unlock a bonus scratch card with
-                exclusive rewards.
+              <p className="text-base sm:text-lg text-foreground/70 leading-relaxed mb-8 sm:mb-10 font-medium">
+                Grow your data through our referral program. Earn 500MB for each successful referral with unlimited earning potential. After three referrals, unlock exclusive bonus scratch cards.
               </p>
 
               <div className="grid sm:grid-cols-2 gap-4">
