@@ -390,7 +390,13 @@ export default function Index() {
                   href="https://wa.me/message/4S3NPHUQR663C1"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-3 rounded-lg bg-accent/10 hover:bg-accent/20 text-accent font-semibold transition-all duration-300 border border-accent/30 hover:border-accent/50"
+                  className="inline-flex items-center gap-2 px-4 py-3 rounded-lg font-semibold transition-all duration-300"
+                  style={{
+                    background: "rgba(61, 207, 220, 0.1)",
+                    borderColor: "rgba(61, 207, 220, 0.25)",
+                    color: "hsl(185 80% 50%)",
+                    border: "1px solid rgba(61, 207, 220, 0.25)"
+                  }}
                 >
                   Get referral link on WhatsApp
                   <ArrowRight className="h-4 w-4" />
@@ -399,7 +405,13 @@ export default function Index() {
                   href="https://t.me/esim4lifechatbot"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-4 py-3 rounded-lg bg-accent/10 hover:bg-accent/20 text-accent font-semibold transition-all duration-300 border border-accent/30 hover:border-accent/50"
+                  className="inline-flex items-center gap-2 px-4 py-3 rounded-lg font-semibold transition-all duration-300"
+                  style={{
+                    background: "rgba(61, 207, 220, 0.1)",
+                    borderColor: "rgba(61, 207, 220, 0.25)",
+                    color: "hsl(185 80% 50%)",
+                    border: "1px solid rgba(61, 207, 220, 0.25)"
+                  }}
                 >
                   Get referral link on Telegram
                   <ArrowRight className="h-4 w-4" />
