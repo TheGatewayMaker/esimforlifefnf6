@@ -245,37 +245,34 @@ export default function Index() {
 
         <div className="container">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-8 sm:mb-10 tracking-tighter">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-6 sm:mb-8 tracking-tight">
               Get Your eSIM Today
             </h2>
 
-            <div className="inline-flex flex-col sm:flex-row items-center sm:items-baseline gap-3 sm:gap-4 mb-8 sm:mb-10">
-              <span className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-accent">
+            <div className="inline-flex flex-col sm:flex-row items-center sm:items-baseline gap-2 sm:gap-3 mb-6 sm:mb-8">
+              <span className="text-4xl sm:text-5xl md:text-6xl font-black text-accent">
                 999 PKR
               </span>
-              <span className="text-xs sm:text-base md:text-lg text-accent font-bold uppercase tracking-widest">
-                One-time
+              <span className="text-xs sm:text-sm font-bold text-foreground/70 uppercase tracking-widest">
+                One-time Purchase
               </span>
             </div>
 
             {/* Global Coverage Highlight */}
             <div
-              className="mb-8 sm:mb-10 p-4 sm:p-5 rounded-xl border mx-auto w-fit"
+              className="mb-8 sm:mb-10 p-4 rounded-lg border mx-auto w-fit"
               style={{
-                background:
-                  "linear-gradient(135deg, rgba(255, 215, 0, 0.1) 0%, rgba(255, 215, 0, 0.05) 100%)",
-                borderColor: "rgba(255, 215, 0, 0.3)",
+                background: "rgba(61, 207, 220, 0.06)",
+                borderColor: "rgba(61, 207, 220, 0.25)",
               }}
             >
               <p className="text-xs sm:text-sm font-bold text-accent">
-                ✓ Works in 150+ Countries • ✓ Non-PTA Compatible
+                ✓ 150+ Countries • ✓ Non-PTA Compatible • ✓ Lifetime Validity
               </p>
             </div>
 
-            <p className="text-sm sm:text-base lg:text-lg text-foreground/75 leading-relaxed max-w-2xl mx-auto mb-10 sm:mb-12 lg:mb-14 font-medium">
-              Choose your preferred platform to purchase. Our team will guide
-              you through a quick, secure setup process. Get global connectivity
-              with lifetime validity.
+            <p className="text-sm sm:text-base text-foreground/70 leading-relaxed max-w-2xl mx-auto mb-10 sm:mb-12 font-medium">
+              Simple, secure purchase process. Our support team will guide you through setup and activation. Global connectivity with lifetime validity guaranteed.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full justify-center max-w-2xl mx-auto">
