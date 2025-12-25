@@ -22,14 +22,14 @@ export default function Index() {
     <main className="relative">
       {/* Hero Section */}
       <section id="home" className="relative overflow-hidden">
-        {/* Enhanced decorative background elements with smooth yellow gradient */}
+        {/* Subtle decorative background elements with professional cyan gradient */}
         <div className="absolute inset-0 -z-10">
-          {/* Top-right yellow gradient (primary accent) - smoothened */}
-          <div className="absolute -top-64 -right-64 w-[600px] h-[600px] bg-gradient-to-br from-accent/30 via-accent/18 to-transparent rounded-full blur-[100px]" />
-          {/* Top-left accent glow - smoothened */}
-          <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-gradient-to-br from-accent/15 via-accent/10 to-transparent rounded-full blur-[100px]" />
-          {/* Bottom-right soft accent - smoothened */}
-          <div className="absolute -bottom-48 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/12 via-accent/6 to-transparent rounded-full blur-[100px]" />
+          {/* Top-right cyan gradient - subtle */}
+          <div className="absolute -top-80 -right-80 w-[700px] h-[700px] bg-gradient-to-br from-accent/12 via-accent/6 to-transparent rounded-full blur-[120px]" />
+          {/* Top-left accent glow - subtle */}
+          <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-gradient-to-br from-accent/8 via-accent/4 to-transparent rounded-full blur-[120px]" />
+          {/* Bottom-right soft accent */}
+          <div className="absolute -bottom-48 right-0 w-[450px] h-[450px] bg-gradient-to-tl from-accent/6 via-accent/3 to-transparent rounded-full blur-[120px]" />
         </div>
 
         <div className="container pt-8 sm:pt-12 md:pt-16 lg:pt-20 pb-8 sm:pb-12 md:pb-16 lg:pb-32 grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20 items-start lg:items-center justify-center">
